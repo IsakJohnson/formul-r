@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale="1.0">
+    <title>Isak Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#welcome-section" class="nav-link">Välkommen</a></li>
+          <li><a href="#projects" class="nav-link">Projekt</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <h1>Hej, jag är Isak.</h1>
+      <p>En full stack utvecklare</p>
+    </section>
+    <section id="projects">
+      <h1>Dessa är några av mina projekt</h1>
+      <div class="projects">
+        <a href="" class="project-tile">
+          <img src="https://www.paintingmania.com/arts/various-artists/large/jesus-christ-lamb-56_6195.jpg" alt=""/>
+        <p><span>(</span>JESUS LAMM<span>)</span></p>
+      </a>
+      <a href="" class="project-tile">
+        <img src="https://www.boredart.com/wp-content/uploads/2013/09/Jesus-paintings-pantocrator.jpg" alt="">
+        <p><span>(</span>JESUS RYSSLAND<span>)</span></p>
+      </a>
+      <a href="" class="project-tile">
+        <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/03/05/11/sei26139543-1-0.jpg" alt="">
+        <p><span>(</span>VAN GOGH 1<span>)</span></p>
+      </a>
+      <a href="" class="project-tile">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Van_Gogh%2C_Wheatfield_with_crows.jpg" alt="">
+        <p><span>(</span>VAN GOGH 2<span>)</span></p>
+      </a>
+      <a href="" class="project-tile">
+        <img src="https://media.wired.com/photos/5dd3fd5aa2b7170008c48e5e/master/w_2560%2Cc_limit/Sci-Europa-RTS1RFWK.jpg" alt="">
+        <p><span>(</span>EUROPA<span>)</span></p>
+      </a>
+      <a href="" class="project-tile">
+        <img src="https://mars.nasa.gov/internal_resources/647" alt="">
+        <p><span>(</span>MARS<span>)</span></p>
+      </a>
+      </div>
+      <a href="" class="show-all"> Visa Allt <i class="ri-arrow-right-s-line"></i>
+      </a>
+    </section>
+    <section id="contact">
+      <h1>Låt oss jobba tillsammans...</h1>
+      <p class="coffee-question">Hur dricker du din kaffe?</p>
+      <div class="social-medias">
+        <a href="https://www.linkedin.com/in/isak-garcia-johnson-b408591b6/" target="_blank" class="social-media">
+          <i class="ri-linkedin-box-fill ri-2x"></i>
+          <p>Linkedin</p>
+        </a>
+         <a href="https://github.com/IsakJohnson" target="_blank" class="social-media" id="profile-link">
+          <i class="ri-github-fill ri-2x"></i>
+          <p>Github</p>
+        </a>
+         <a href="https://www.freecodecamp.org/zanito" target="_blank" class="social-media">
+          <i class="ri-fire-fill ri-2x"></i>
+          <p>freeCodeCamp</p>
+        </a>
+         <a href="" class="social-media">
+          <i class="ri-at-line ri-2x"></i>
+          <p>E-Mail</p>
+        </a>
+         <a href="" class="social-media">
+          <i class="ri-cellphone-fill ri-2x"></i>
+          <p>Ring mig</p>
+        </a>
+      </div>
+    </section>
+    <footer>Skapat av Isak Johnson Nov 2024</footer>
+  </body>
+</html>
